@@ -10,11 +10,9 @@ or file transferrs
 #####
 How to use:
 
-install dependencies for pyaudio, Librosa, Pydub, scipy, numpy, matplotlib, soundfile, wave
-sudo apt install portaudio19-dev
+install dependencies for Librosa, Pydub, scipy, numpy, matplotlib, soundfile, wave
 
-install pyaudio
-pip3 install pyaudio
+pip3 install <library_name>
+repeat this for each dependency
 
-Have main.py target appropriate 
-
+Have main.py target the appropriate files within the encode and decode functions 
