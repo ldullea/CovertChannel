@@ -112,4 +112,4 @@ if __name__ == '__main__':
 
     soundcloud_decoded = AudioSegment.from_file(file='soundcloud_decoded.wav',
                                                 format="wav")
-    play(soundcloud_decoded
+    play(soundcloud_decoded)
